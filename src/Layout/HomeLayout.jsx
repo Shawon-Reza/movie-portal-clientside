@@ -1,8 +1,12 @@
+import Navbar from "../Components/Navbar";
+import Slider from "../Components/Slider";
 
 const HomeLayout = () => {
     return (
         <div>
-            <h1>Layput.........................</h1>
+
+            <Navbar></Navbar>
+            <Slider></Slider>
         </div>
     );
 };
